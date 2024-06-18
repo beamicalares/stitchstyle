@@ -54,3 +54,61 @@
         text-decoration: none;
         color: var(--1);
     }
+
+   a:hover{ 
+        text-decoration:none ;
+        color: var(--1);  
+        transition: ease 0.2s;
+        animation: fadeInLeft;
+        animation-duration: 0.5s;
+        
+
+   }
+
+   li a:active{
+    text-decoration:none ;
+    font-size: 30px;
+   }
+
+   .container-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px black;
+    min-height: 100vh;
+    width: 100vw;
+    gap: 1rem;
+   }
+
+   .container-images{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 700px;
+   }
+
+   .slider{
+    position: absolute;
+    width: 100%;
+    transition: opacity .2s;
+    opacity: 0;
+   }
+
+   .on{
+    opacity: 1;
+   }
+
+   #prev-button, #next-button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+   }
+
+   #prev-button i,#next-button i{
+    width: 100%;
+    height: 100%;
+
+   }
