@@ -112,3 +112,22 @@
     height: 100%;
 
    }
+   #dov{
+    display: flex;
+    justify-content: center;
+    }
+    
+    nav li a:hover{
+        background-color: #a950b4;
+    }
+    .dropdown-menu{
+    position: absolute;
+    border: #a950b4;
+    display:none;
+    }
+    .dropdown-menu a{
+        display: block;}
+    
+        .dropdown:hover .dropdown-menu{
+            display: block;
+        }
