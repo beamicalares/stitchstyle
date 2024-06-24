@@ -211,3 +211,30 @@ display:none;
         justify-content:space-around;
         display: flex;
     }
+.doo {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 30px;
+    float: left;
+    }
+   .produtos2 {
+    padding-top: 30px;
+    padding-left: 950px;
+    color: #60066B;
+   }
+   .produtos3 {
+    padding-top: 130px;
+    padding-left: 1120px;
+    color: #60066B;
+   }
+   .button1{
+    padding: 95px 370px;
+    width: 300px;
+    color: #60066B;
+    display: flex;
+    border-radius:5px ;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+   }
+  
