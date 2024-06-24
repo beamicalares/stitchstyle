@@ -228,13 +228,16 @@ display:none;
     color: #60066B;
    }
    .button1{
-    padding: 95px 370px;
-    width: 300px;
+    padding: 20px 20px;
+    width: 150px;
     color: #60066B;
     display: flex;
-    border-radius:5px ;
+    border-radius:50px ;
     text-align: center;
     user-select: none;
     cursor: pointer;
+    margin-left: 1100px;
+    background-color: #60066B;
+    margin-top: 90px;
    }
   
