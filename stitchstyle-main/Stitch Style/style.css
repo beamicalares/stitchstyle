@@ -256,3 +256,63 @@
                 height: 400px;
                 margin: 0 auto;
             } */
+
+
+   /*Style da página sobre nós */
+
+.titulo{
+        size: 20;
+        display: flex;
+        justify-content:center;
+        color: #60066B ;
+        border:none;
+        margin: 10px 50px 30px 50px;
+        padding: 0px 50px 0px 50px;
+        display: flex;
+        flex-direction: row;
+        background-color:#a18594
+}
+
+ .titu{
+    justify-content: flex;
+    color:#60066B;
+    margin: 0px 0px 3px 0px;
+ }
+
+ .sub{
+    color:#a950b4
+ }
+
+.img1{
+    margin: 10px 0px 0px 0px;
+    z-index: 1;
+    position:relative;
+ }
+ 
+ .sub1 { height: 393px; width: 230px;
+    z-index:2;
+    position:absolute; left:135px; top:373px; 
+    
+}
+
+.img2{
+    margin: 100px 0px 0px 0px;
+    z-index: 1;
+    position:relative; left:800px
+}
+
+.sub2{
+    z-index:2;
+    position: absolute; right:117px; top:978px;
+    width: 228px; 
+    height:390px;
+    border-radius:18px;
+}
+
+.texto1{
+    position: absolute; left:550px; bottom:100px;
+    color:#60066B;
+    padding: 0px 0px 0px 0px;
+    margin: 1100px 0px 30px -20px;
+    font-size:30px;
+}
