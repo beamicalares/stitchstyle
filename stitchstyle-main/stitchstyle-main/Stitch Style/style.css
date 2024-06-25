@@ -96,6 +96,7 @@
     z-index: 1;
     }
     .dropdown-menu a{
+        
         display: block;}
     
  .dropdown:hover .dropdown-menu{
@@ -233,7 +234,18 @@
         text-decoration: none;
         color: #a18594;
     }
-
+    .contatos{
+        size: 20;
+        display: flex;
+        justify-content:center;
+        color: #a950b4;
+        border-color: #60066B ;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px; 
+        margin: 0px 50px 0px 50px;
+        display: flex;
+        flex-direction: row;
+    }
 
 
     #prev-slide i, #next-slide i{
@@ -241,6 +253,8 @@
         height: 100%;
         color: var(--1);
     }
+    
+        
 /* 
     #prev-slide, #next-slide{
         display: flex;

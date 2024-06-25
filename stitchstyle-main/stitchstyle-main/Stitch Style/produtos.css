@@ -181,6 +181,7 @@ height: 100%;
 display: flex;
 justify-content: space-evenly;
 padding-top: 30px;
+
 }
 .dov2{
     display: flex;
@@ -192,13 +193,10 @@ nav li a:hover{
     background-color: #a950b4;
 }
 .dropdown-menu{
-    position: absolute;
-    border: #a950b4;
-    display:none;
-    background-color: whitesmoke;
-    padding: 8px ;
-    border-radius: 5px;
-    z-index: 1;
+position: absolute;
+border: #a950b4;
+display:none;
+margin-top: 2px;
 }
 .dropdown-menu a{
     display: block;}
@@ -228,7 +226,7 @@ nav li a:hover{
    }
    .produtos3 {
     padding-top: 130px;
-    padding-left: 1120px;
+    padding-left: 1100px;
     color: #60066B;
    }
    .button1{
@@ -244,4 +242,4 @@ nav li a:hover{
     background-color: #60066B;
     margin-top: 90px;
    }
-  
+ 
