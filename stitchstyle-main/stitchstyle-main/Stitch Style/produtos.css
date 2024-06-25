@@ -193,17 +193,22 @@ nav li a:hover{
     background-color: #a950b4;
 }
 .dropdown-menu{
-position: absolute;
-border: #a950b4;
-display:none;
-margin-top: 2px;
-}
-.dropdown-menu a{
-    display: block;}
-
-    .dropdown:hover .dropdown-menu{
-        display: block;
+    position: absolute;
+    border: #a950b4;
+    display:none;
+    background-color: whitesmoke;
+    padding: 8px ;
+    border-radius: 5px;
     }
+    .dropdown-menu a{
+        
+        display: block;}
+    
+ .dropdown:hover .dropdown-menu{
+            
+            display: block;
+        }
+
 
     .preco{
         justify-content:space-around;
