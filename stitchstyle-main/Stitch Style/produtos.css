@@ -18,11 +18,25 @@ header{
     border-width: 0px 0px 2px 0px;
     margin: 0px 50px 0px 50px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     gap: 50px;
     font-size: 20px;
     color: var(--2);
     
+}
+
+nav{
+    padding: 10px 0px 15px 0px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    color: var(--2);
 }
 
 .icons{
@@ -47,6 +61,7 @@ padding: 0px 0px 0px 0px;
 
 li{
     list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -99,6 +114,17 @@ opacity: 0;
 opacity: 1;
 }
 
+.logo img{
+    width: 80px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 #prev-button, #next-button{
 width: 30px;
 height: 30px;
@@ -115,65 +141,13 @@ height: 100%;
 .produtos{
     size: 20;
     display: flex;
-    justify-content:center;
-    color: #a950b4;
-    border-color: #60066B ;
-    border-style: solid;
-    border-width: 1px 0px 2px 0px;
-    margin: 0px 50px 0px 50px;
-    display: flex;
-    flex-direction: row;
-    
-}
-.biquini{
-    size: 20;
-    display: flex;
     justify-content: center;
+    align-items: center;
     color: #a950b4;
     border-color: #60066B ;
     border-style: solid;
-    border-width: 1px 0px 2px 0px;
-    margin: 0px 50px 0px 50px;
-    display: flex;
-    flex-direction: row;
-    
-
-}
-.short{ 
-    size: 20;
-    display: flex;
-    justify-content: center;
-    color: #a950b4;
-    border-color: #60066B ;
-    border-style: solid;
-    border-width: 1px 0px 2px 0px;
-    margin: 0px 50px 0px 50px;
-    display: flex;
-    flex-direction: row;
-
-}
-.top {
-    size: 20;
-    display: flex;
-    justify-content: center;
-    color: #a950b4;
-    border-color: #60066B ;
-    border-style: solid;
-    border-width: 1px 0px 2px 0px;
-    margin: 0px 50px 0px 50px;
-    display: flex;
-    flex-direction: row;
-}
-.vestido{
-    size: 20;
-    display: flex;
-    justify-content: center;
-    color: #a950b4;
-    border-color: #60066B ;
-    border-style: solid;
-    border-width: 1px 0px 2px 0px;
-    margin: 0px 50px 0px 50px;
-    display: flex;
+    border-width: 2px 0px 2px 0px;
+    margin: 30px 50px 30px 50px;
     flex-direction: row;
 }
 
@@ -356,3 +330,102 @@ nav li a:hover{
     width: 300px;
     height: 300px;
     } */
+
+    /* RODAPÉ */
+
+footer{
+    background-color: var(--1);
+}
+
+.footer{
+    background-color: var(--1);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding: 100px 30px 50px 30px;
+    gap: 80px;
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a{
+ font-size: 15px;
+ padding: 5px 0 5px 0;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #a18594;
+}
+
+p{
+    z-index: 1;
+    font-size: 20px;
+}
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       color: white;
+
+    }
+
+    .pay-icons{
+        padding: 30px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons-foot{
+        padding: 20px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .foot2{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+    
+    .foot2 img{
+        width: 120px;
+    }
+    
+    .foot3{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+
+    .foot4{
+
+        display: flex;
+       color: white;
+       align-items: center;
+        justify-content: center;
+        background-color: var(--1);
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+        padding: 20px 0px 25px 0px;
+        margin: 0 30px 0 30px;
+        gap: 80px;
+        border-color: var(--3);
+        border-style: solid;
+        border-width: 2px 0px 0px 0px;
+
+    }
