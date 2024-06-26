@@ -121,7 +121,7 @@
             }
             
  nav li a:hover{
-                background-color:#d6cbcb;
+                background-color:var(--2);
                border-radius: 10px;
                padding: 4px;
             }
@@ -200,7 +200,7 @@
    }
 
    span{
-    background-color:#d6cbcb;
+    background-color:var(--3);
    }
 
 
