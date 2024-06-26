@@ -3,9 +3,7 @@
     padding: 0;
     font-family: "Yeseva One", serif, arial;
 }
-body {
-    background-color: #f9f9f9;
-}
+
 
 :root{
     --1: #60066b;
@@ -185,6 +183,15 @@ height: 100%;
     width: 25%;
     padding: 20px;
     box-sizing: border-box;
+    
+}
+
+ #galeria2 > div{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+
  }
 
  .foto img{
@@ -194,17 +201,28 @@ height: 100%;
 
  .detalhes{
     display: none;
+    
+    left: 50%;
+    top: 50%;
+    background-color: var(--3);
+    width: 100%;
+    margin: 0 50px 0 0;
+    color: var(--1);
+    border-radius: 20px;
+    padding: 40px 100px 50px 50px;
  }
+
+
 
  .foto:target{
     position: fixed;
     width: 100%;
     top: 100px;
+
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items:center ;
-    left: 25%;
     box-shadow: 0 0 25px 10 #000;
     border-radius: 10px;
     /* background-color: var(--3); */
@@ -217,6 +235,7 @@ align-items: center;
 flex-direction: column;
 z-index: 1;
 font-size: 35px;
+background-color: var(--3);
 
  }
  
@@ -227,13 +246,11 @@ font-size: 35px;
     flex-direction: row;
     justify-content: center;
    align-items: center;
-   margin-left: 300px;
+   margin-left: 1100px;
    border-radius: 10px;
-   background-color: var(--3);
-   padding: 20px 500px 20px 20px;
+   z-index: 1;
  }
 
- 
 
 /* SEPARANDO */
 
@@ -241,9 +258,7 @@ font-size: 35px;
 
 
 nav li a:hover{
-    background-color:#d6cbcb;
-    border-radius: 10px;
-    padding: 4px;
+    background-color: #a950b4;
 }
 .dropdown-menu{
     position: absolute;
@@ -251,21 +266,32 @@ nav li a:hover{
     display:none;
     background-color: whitesmoke;
     padding: 8px ;
-    border-radius: 10px;
+    border-radius: 5px;
     z-index: 1;
 }
 .dropdown-menu a{
-    display: block;
-     border-radius: 10px;
-     padding: 2px ;
-}
+    display: block;}
     
     .dropdown:hover .dropdown-menu{
         display: block;
-        border-radius: 10px;
-       
     }
     
+    .doo {
+        display: flex;
+        padding-left: 100px;
+        padding-top: 30px;
+        float: left;
+    }
+    .produtos2 {
+        padding-top: 30px;
+        padding-left: 950px;
+        color: #60066B;
+    }
+    .produtos3 {
+        padding-top: 130px;
+        padding-left: 1120px;
+        color: #60066B;
+    }
     .button1{
         padding: 20px 20px;
         width: 150px;
