@@ -1,0 +1,172 @@
+/*Style da página sobre nós */
+
+.titulo{
+    size: 20;
+    display: flex;
+    justify-content:center;
+    color: #60066B ;
+    border:none;
+    margin: 10px 50px 30px 50px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    background-color:#a18594;
+    font-family: "Yeseva One", serif, arial;
+}
+
+.titu{
+justify-content: flex;
+color:#60066B;
+margin: 0px 0px 3px 0px;
+font-family: "Yeseva One", serif, arial;
+}
+
+.sub{
+color:#a950b4;
+font-family: "Yeseva One", serif, arial;
+}
+
+.img1{
+margin: 19px 0px 0px 30px;
+z-index: 1;
+position:relative;
+height: 680px;
+width:780px;
+}
+
+.sub1 { height: 534px; width: 356px;
+z-index:2;
+position:absolute; left:242px; top: 406px; 
+
+}
+
+.img2{
+margin: 0px 0px 0px 0px;
+z-index: 1;
+position:relative; left: 680px;
+height: 680px;
+width:780px;
+}
+
+.sub2{
+z-index:2;
+position: absolute; right:116px; top:1090px;
+width: 369px; 
+height:534px;
+border-radius:30px;
+}
+
+.texto1{
+position: absolute; left:700px; bottom: 20px;
+color:#60066B;
+padding: 0px 100px 0px 0px;
+margin: 1600px 0px 0px 0px;
+font-size:40px;
+} 
+
+.texto2{
+    color:#60066B;
+    font-size: 40px;
+    position: absolute; left:50px; top:1220px;
+    padding: 0px 610px 0px 90px;
+    margin: 0px 0px 0px 90px;
+}
+
+.retangulo{
+    position:absolute; top:1400px;
+    width:1470px;
+    height:1270px;
+}
+
+.circulos{
+    display:flex;
+    justify-content:space-evenly;
+    position:relative; top:25px;
+}
+
+.circ1{
+    width: 350px;
+    height: 350px;
+    position:relative; right:-6px;
+}
+
+.circ2{
+    width: 350px;
+    height: 350px;
+    position:relative; right:-7px;
+}
+
+.circ3{
+    width: 350px;
+    height: 350px;
+    position:relative; right:-62px;
+}
+
+.icones{
+    position:absolute;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ico1{
+    width:280px;
+    position:relative; right: 135px; bottom:15px;
+}
+
+.ico2{
+    width:329px;
+    position:relative; right:10px; bottom:-13px;
+}
+
+.ico3{
+    width:242px;
+    position:relative; left:184px; bottom:32px;
+}
+
+.icotitu{
+    position:absolute; top:270px;
+    font-size: 35px;
+    justify-content: space-between;
+    display: flex;
+    color:white;
+    text-align: center;
+}
+
+.titu1{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; right:303px;
+}
+
+.titu2{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; left:15px;
+}
+
+.titu3{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; left:377px;
+}
+
+.teto{
+    display:flex;
+    position:absolute;
+    top: 345px;
+    font-size:24px;
+    color:#60066B;
+    text-align: center;
+}
+
+.teto1{
+   position:relative; left:100px;
+}
+
+.teto2{
+    position:relative;
+    left:112px;
+    padding: 0px 120px 0px 0px;
+}
+
+.retangulo2{
+    display:flex;
+    position:relative; top:300px
+}
