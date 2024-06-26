@@ -368,7 +368,7 @@
 .titu{
 justify-content: flex;
 color:#60066B;
-margin: 15px 0px 3px 0px;
+margin: 0px 0px 3px 0px;
 font-family: "Yeseva One", serif, arial;
 }
 
@@ -424,8 +424,8 @@ font-size:40px;
 }
 
 .retangulo{
-    position:absolute; top:1400px;
-    width:1470px;
+    position:absolute; top:1359px;
+    width:1700px;
     height:1270px;
 }
 
@@ -517,11 +517,35 @@ font-size:40px;
     padding: 0px 120px 0px 0px;
 }
 
-.retangulo2{
+.retangulo1{
     display:flex;
-    position:relative; top:300px
+    position:absolute; top:2100px;
+    width:1460px;
+    height:1270px;
 }
 
+
+.proj{
+    font-family: "Yeseva One", serif, arial;
+    position:relative; top:390px;
+    text-align:center;
+    font-size:35px;
+    color:#60066B;
+}
+
+.imgf{
+    position:relative; top: 411px;
+    height: 474px;
+    width:690px;
+}
+
+.ltext{
+    position:relative;
+    top:80px;
+    font-size: 29px;
+    margin:0px 40px 0px 750px;
+    color:#60066B;
+}
 
 
 /* RODAPÉ */
