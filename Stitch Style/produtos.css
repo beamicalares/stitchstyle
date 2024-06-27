@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Yeseva One", serif, arial;
+}
+
+
+:root{
+    --1: #60066b;
+    --2: #a950b4; 
+    --3: #cdbbd0;
+}
+
+header{
+    padding: 20px 0px 25px 0px;
+    border-color: #60066B ;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+    color: var(--2);
+    
+}
+
+nav{
+    padding: 10px 0px 15px 0px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    color: var(--2);
+}
+
+.icons{
+padding: 0px 0px 0px 100px;
+display: flex;
+flex-direction: row;
+gap: 25px;
+}
+
+#entrar{
+display: flex;
+padding: 0px 0px 0px 0px;
+}
+
+.nav-list{
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:50px;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--1);
+}
+
+a:hover{ 
+    text-decoration:none ;
+    color: var(--1);  
+    transition: ease 0.2s;
+    animation: fadeInLeft;
+    animation-duration: 0.5s;
+    
+
+}
+
+li a:active{
+text-decoration:none ;
+font-size: 30px;
+}
+
+.container-slider{
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 2px 2px 4px black;
+min-height: 100vh;
+width: 100vw;
+gap: 1rem;
+}
+
+.container-images{
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 700px;
+}
+
+.slider{
+position: absolute;
+width: 100%;
+transition: opacity .2s;
+opacity: 0;
+}
+
+.on{
+opacity: 1;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#prev-button, #next-button{
+width: 30px;
+height: 30px;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+#prev-button i,#next-button i{
+width: 100%;
+height: 100%;
+
+}
+.produtos{
+    size: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a950b4;
+    border-color: #60066B ;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    margin: 30px 50px 30px 50px;
+    flex-direction: row;
+}
+
+/* PRODUTOS INICIAL */
+ #galeria > div{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+ #galeria2 > div{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+
+ }
+
+ .foto img{
+    width: 100%;
+    display: block;
+ }
+
+ .detalhes{
+    display: none;
+    
+    left: 50%;
+    top: 50%;
+    background-color: var(--3);
+    width: 100%;
+    margin: 0 50px 0 0;
+    color: var(--1);
+    border-radius: 5px;
+    padding: 40px 100px 50px 50px;
+ }
+
+ .fechar{
+   width: 10px;
+    padding-left: 300px;
+    z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* #fechar{
+    display: flex;
+    justify-content: end;
+    padding-left: 20px;
+    align-items: center;
+ } */
+
+
+ .foto:target{
+    position: fixed;
+    width: 100%;
+    top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center ;
+    box-shadow: 0 0 25px 10 #000;
+    border-radius: 2px;
+    /* background-color: var(--3); */
+ }
+
+ .foto:target .detalhes{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+z-index: 1;
+font-size: 35px;
+background-color: var(--3);
+
+ }
+ 
+ /* .foto:target #galeria{
+
+ } */
+
+
+
+ 
+
+ .foto:target img{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+   margin-left: 1100px;
+   border-radius: 10px;
+   z-index: 1;
+ }
+
+
+/* SEPARANDO */
+
+
+
+
+nav li a:hover{
+    background-color: #a950b4;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    position: absolute;
+    border: #a950b4;
+    display:none;
+    background-color: whitesmoke;
+    padding: 8px ;
+    border-radius: 10px;
+    z-index: 1;
+}
+.dropdown-menu a{
+    display: block;
+     border-radius: 10px;
+     padding: 2px ;
+}
+    
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        border-radius: 10px;
+       
+    }
+
+.dropdown:hover .dropdown-menu{
+        
+        display: block;
+    }
+    
+    .doo {
+        display: flex;
+        padding-left: 100px;
+        padding-top: 30px;
+        float: left;
+    }
+    .produtos2 {
+        padding-top: 30px;
+        padding-left: 950px;
+        color: #60066B;
+    }
+    .produtos3 {
+        padding-top: 130px;
+        padding-left: 1120px;
+        color: #60066B;
+    }
+    .button1{
+        padding: 20px 20px;
+        width: 150px;
+        color: #60066B;
+        display: flex;
+        border-radius:50px ;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        margin-left: 1100px;
+        background-color: #60066B;
+        margin-top: 90px;
+    }
+    
+    /* section{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .dov{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    font-size: 25px;
+    
+    }
+    
+     img{
+    width: 300px;
+    height: 300px;
+    } */
+
+    /* RODAPÉ */
+
+
+
+.footer{
+    background-color: var(--1);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px 3px 50px 30px;
+    gap: 80px;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a{
+ font-size: 15px;
+ padding: 5px 0 5px 0;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #a18594;
+}
+
+p{
+    z-index: 1;
+    font-size: 20px;
+}
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       color: white;
+
+    }
+
+    .pay-icons{
+        padding: 30px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons-foot{
+        padding: 20px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .foot2{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+    
+    .foot2 img{
+        width: 120px;
+    }
+    
+    .foot3{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+
+    .foot4{
+
+        display: flex;
+       color: white;
+       align-items: center;
+        justify-content: center;
+        background-color: var(--1);
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+        padding: 20px 0px 25px 0px;
+        margin: 0 0px 0 0px;
+        gap: 80px;
+        border-color: var(--3);
+        border-style: solid;
+        border-width: 2px 0px 0px 0px;
+
+    }
