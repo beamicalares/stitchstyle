@@ -4,7 +4,7 @@
         font-family: "Yeseva One", serif, arial;
     }
     body {
-        background-color: #f9f9f9;
+        background-color: #f8f8f8;
     }
 
 
@@ -40,6 +40,8 @@
         gap: 50px;
         font-size: 20px;
         color: var(--2);
+        /* position: fixed;
+        background: #f8f8f8; */
     }
 
     .logo img{
@@ -65,57 +67,40 @@
     padding: 0px 0px 0px 0px;
 }
 
-/* PESQUISAR */
-
-
-.fields {
-	margin: auto;
-	
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-}
-
-.fields input {
-	font-size: 1em;
-	width: 60%;
-	height: 50%;
-	margin-top: 2px;
-	border-radius: 5px;
-	border: 2px solid var(--1);
-	box-sizing: border-box;
-	padding-left: 40px;
-
-
-}
-
-label {
-	position: relative;
-}
-label::after {
-	font-family: FontAwesome;
-	float: left;
-	margin-left: -1.5em;
-	content: "\f002";
-	color: var(--2);
-
-	left: 5px;
-	position: absolute;
-	top: 5px;
-	bottom: 10px;
-	margin: auto;
-}
-
-
-
-/* SEPARANDO  */
-
 .nav-list{
         padding: 15px 0px 0px 15px;
         display: flex;
         align-items:center;
         justify-content: center;
         gap:50px;
+    }
+
+    .produtospop{
+        background: #a18594;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        margin-bottom: 150px;
+    }
+
+    #galeriapop img{
+        width:240px;
+        height: 276px;
+        gap: 0px;
+        margin: 20px 0px 0px 30px;
+        box-shadow: 3px 2px 7px 2px #00000036;
+    }
+
+    #galeriapop li{
+        /* display: flex; 
+        justify-content: center;
+        align-items: center; */
+        margin-right:4px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    #galeriapop img:hover{
+        border:2px solid var(--1);   
     }
 
     li{
@@ -148,30 +133,65 @@ label::after {
     /* menu produtos */
     nav li a:hover{
         background-color: #a950b4;
-        border-radius: 10px;
+        border-radius: 0px;
     }
-    .dropdown-menu{
+    
+    .dropdown-menu1{
+        width: 109px;
+        height: 134px;
         position: absolute;
         border: #a950b4;
         display:none;
         background-color: whitesmoke;
         padding: 8px ;
-        border-radius: 10px;
+        border-radius: 0px;
         z-index: 1;
+        box-shadow: 3px 2px 7px 2px #00000036;
     }
-    .dropdown-menu a{
+
+    .dropdown-menu1 a{
         display: block;
-         border-radius: 10px;
+         border-radius: 0px;
          padding: 2px ;
     }
-        
-        .dropdown:hover .dropdown-menu{
+    
+    .dropdown-menu2{
+        width: 130px;
+        height: 75px;
+        position: absolute;
+        border: #a950b4;
+        display:none;
+        background-color: whitesmoke;
+        padding: 8px ;
+        border-radius: 0px;
+        z-index: 1;
+        box-shadow: 3px 2px 7px 2px #00000036;
+    }
+    .dropdown-menu2 a{
+        display: block;
+         border-radius: 0px;
+         padding: 2px ;
+    }
+    
+        .dropdown:hover .dropdown-menu1{
             display: block;
-            border-radius: 10px;
+            border-radius: 0px;
            
         }
     
-    .dropdown:hover .dropdown-menu{
+    .dropdown:hover .dropdown-menu1{
+            
+            display: block;
+        }
+
+        
+        .dropdown:hover .dropdown-menu2{
+            display: block;
+            border-radius: 0px;
+           
+        }
+    
+    .dropdown:hover .dropdown-menu2{
             
             display: block;
         }
@@ -291,6 +311,20 @@ label::after {
     font-size:30px ;
    }
 
+   /* .nomepop{
+        color: red;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size:30px ;
+   }
+
+   .valorpop{
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:30px ;
+} */
+
    .pop-list, .pop-slider{
     display: flex;
     flex-direction: row;
@@ -321,96 +355,24 @@ label::after {
         color: #a18594;
     }
 
-
-
     #prev-slide i, #next-slide i{
         width: 100%;
         height: 100%;
         color: var(--1);
     }
 
-    /*body{
-        display: flex;
-        padding: 0 35px;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-    }
-
-    .wrapper {
-        max-width: 1200px
-        position: relative;
-    }
-
-    .wrapper i{
-        top: 50%;
-        height: 45px;
-        width: 45px;
-        cursor: pointer;
-        position:absolute;
-        font-size: 1.2rem;
-        text-align: center;
-        line-height: 46px;
-        background:#5600615e;
-        border-radius: 50%;
-        transform: translateY(-50%)
-    }
-
-.wrapper i:first-child{
-    left: -23px;
-}
-
-.wrapper i:last-child{
-    right: -23px;
-}
-
-    .wrapper .carousel{
-        font-size: 0px;
-        cursor: pointer;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .carousel img{
-        height: 340px;
-        object-fit: cover;
-        margin-left: 14px;
-        width: calc(100% / 3);
-    }
-
-.carousel img:first-child{
-    margin-left: 0px;
-}*/
-
-/* 
-    #prev-slide, #next-slide{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
-
-        /* @media(min-width: 1024px) {
-            .container-slider{
-                overflow: hidden;
-                width: 700px;
-                height: 400px;
-                margin: 0 auto;
-            } */
-
-
-   /*Style da página sobre nós */
-
 .titulo{
-    font-size: 40px;
+    size: 20;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #a950b4;
-    border-color: #60066B ;
-    border-style: solid;
-    border-width: 2px 0px 2px 0px;
-    margin: 30px 50px 30px 50px;
+    justify-content:center;
+    color: #60066B ;
+    border:none;
+    margin: 10px 50px 30px 50px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
     flex-direction: row;
+    background-color:#a18594;
+    font-family: "Yeseva One", serif, arial;
 }
 
 .titu{
