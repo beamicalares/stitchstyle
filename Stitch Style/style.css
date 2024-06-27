@@ -356,17 +356,16 @@
    /*Style da página sobre nós */
 
 .titulo{
-    size: 20;
+    font-size: 40px;
     display: flex;
-    justify-content:center;
-    color: #60066B ;
-    border:none;
-    margin: 10px 50px 30px 50px;
-    padding: 0px 50px 0px 50px;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a950b4;
+    border-color: #60066B ;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    margin: 30px 50px 30px 50px;
     flex-direction: row;
-    background-color:#a18594;
-    font-family: "Yeseva One", serif, arial;
 }
 
 .titu{
