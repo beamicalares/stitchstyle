@@ -333,9 +333,7 @@ nav li a:hover{
 
     /* RODAPÉ */
 
-footer{
-    background-color: var(--1);
-}
+
 
 .footer{
     background-color: var(--1);
@@ -343,8 +341,9 @@ footer{
     flex-direction: row;
     align-items: center; 
     justify-content: center;
-    padding: 100px 30px 50px 30px;
+    padding: 10px 3px 50px 30px;
     gap: 80px;
+   
 }
 
 footer a{
@@ -422,7 +421,7 @@ p{
         align-items: center; 
         justify-content: center;
         padding: 20px 0px 25px 0px;
-        margin: 0 30px 0 30px;
+        margin: 0 0px 0 0px;
         gap: 80px;
         border-color: var(--3);
         border-style: solid;

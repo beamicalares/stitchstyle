@@ -101,6 +101,10 @@
    }
 
     /* menu produtos */
+    nav li a:hover{
+        background-color: #a950b4;
+        border-radius: 10px;
+    }
     .dropdown-menu{
         position: absolute;
         border: #a950b4;
@@ -122,7 +126,7 @@
            
         }
     
- .dropdown:hover .dropdown-menu{
+    .dropdown:hover .dropdown-menu{
             
             display: block;
         }
@@ -550,9 +554,7 @@ font-size:40px;
 
 /* RODAPÉ */
 
-footer{
-    background-color: var(--1);
-}
+
 
 .footer{
     background-color: var(--1);
@@ -560,11 +562,12 @@ footer{
     flex-direction: row;
     align-items: center; 
     justify-content: center;
-    padding: 100px 30px 50px 30px;
+    padding: 10px 3px 50px 30px;
     gap: 80px;
+   
 }
 
-footer a, p{
+footer a{
     text-decoration: none;
     color: whitesmoke;
 }
@@ -639,7 +642,7 @@ p{
         align-items: center; 
         justify-content: center;
         padding: 20px 0px 25px 0px;
-        margin: 0 30px 0 30px;
+        margin: 0 0px 0 0px;
         gap: 80px;
         border-color: var(--3);
         border-style: solid;
