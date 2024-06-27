@@ -65,6 +65,51 @@
     padding: 0px 0px 0px 0px;
 }
 
+/* PESQUISAR */
+
+
+.fields {
+	margin: auto;
+	
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.fields input {
+	font-size: 1em;
+	width: 60%;
+	height: 50%;
+	margin-top: 2px;
+	border-radius: 5px;
+	border: 2px solid var(--1);
+	box-sizing: border-box;
+	padding-left: 40px;
+
+
+}
+
+label {
+	position: relative;
+}
+label::after {
+	font-family: FontAwesome;
+	float: left;
+	margin-left: -1.5em;
+	content: "\f002";
+	color: var(--2);
+
+	left: 5px;
+	position: absolute;
+	top: 5px;
+	bottom: 10px;
+	margin: auto;
+}
+
+
+
+/* SEPARANDO  */
+
 .nav-list{
         padding: 15px 0px 0px 15px;
         display: flex;
