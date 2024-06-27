@@ -1,0 +1,684 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Yeseva One", serif, arial;
+    }
+    body {
+        background-color: #f9f9f9;
+    }
+
+
+    :root{
+        --1: #60066b;
+        --2: #a950b4; 
+        --3: #cdbbd0;
+    }
+    
+    header{
+        padding: 20px 0px 25px 0px;
+        border-color: #60066B ;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        margin: 0px 50px 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+        font-size: 20px;
+        color: var(--2);
+        
+    }
+
+    nav{
+        padding: 10px 0px 15px 0px;
+        margin: 0px 50px 0px 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        font-size: 20px;
+        color: var(--2);
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.icons{
+    padding: 0px 0px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#entrar{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-list{
+        padding: 15px 0px 0px 15px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap:50px;     
+    }
+
+    li{
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--1);
+    }
+
+   a:hover{ 
+        text-decoration:none ;
+        color: var(--1);  
+
+        /* transition: ease 0.2s;
+        animation: fadeInLeft;
+        animation-duration: 0.5s; */
+        
+
+   }
+
+   li a:active{
+    text-decoration:none ;
+    font-size: 30px;
+   }
+
+    /* menu produtos */
+    nav li a:hover{
+        background-color: #a950b4;
+        border-radius: 10px;
+    }
+    .dropdown-menu{
+        position: absolute;
+        border: #a950b4;
+        display:none;
+        background-color: whitesmoke;
+        padding: 8px ;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .dropdown-menu a{
+        display: block;
+         border-radius: 10px;
+         padding: 2px ;
+    }
+        
+        .dropdown:hover .dropdown-menu{
+            display: block;
+            border-radius: 10px;
+           
+        }
+    
+    .dropdown:hover .dropdown-menu{
+            
+            display: block;
+        }
+
+    #dov{
+            display: flex;
+            justify-content: center;
+            }
+            
+ nav li a:hover{
+                background-color:var(--2);
+               border-radius: 10px;
+               padding: 4px;
+            }
+
+
+    /* carrossel */
+   .container-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 170px 0px 200px 0px;
+    /* box-shadow: 2px 2px 4px black; */
+    min-height: 10vh ;
+    gap: 1rem;
+   }
+
+   .container-images img{
+    width: 1890px;;
+    height: 400px;
+   }
+
+   .container-images{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     
+   }
+
+   .slider{
+    position: absolute;
+    width: 100%;
+    transition: opacity .2s;
+    opacity: 0;
+   }
+
+   .on{
+    opacity: 1;
+   }
+
+   #prev-button, #next-button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index:1;
+    color: whitesmoke;
+   }
+
+   #prev-button i,#next-button i{
+    width: 100%;
+    height: 100%;
+
+   }
+
+  .sobre{
+    size: 20;
+    display: flex;
+    justify-content: center;
+    color: #a950b4;
+    border-color: #60066B ;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+   #text-1{
+    margin: 300px 100px 150px 100px;
+    padding: 25px 45px 25px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--3);
+    border-radius: 20px;
+   }
+   
+   #text-1 img{
+    width: 300px;
+   }
+
+   #text-1 p{
+    font-size: 25px;
+    color: var(--1);
+   }
+
+   span{
+    background-color:var(--3);
+   }
+
+
+   /* section produtos populares */
+
+   .sec-2{ 
+       background-color: var(--3);
+   }
+
+   h2{
+    color: var(--1);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size:30px ;
+   }
+
+   .pop-list, .pop-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.pop-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-img img{ 
+    width: 200px;} 
+ 
+    .slide-button{
+        width: 35px;
+        height: 35px;
+        color: var(--1);
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+   
+    #prev-slide i:hover, #next-slide i:hover{
+        text-decoration: none;
+        color: #a18594;
+    }
+
+
+
+    #prev-slide i, #next-slide i{
+        width: 100%;
+        height: 100%;
+        color: var(--1);
+    }
+
+    /*body{
+        display: flex;
+        padding: 0 35px;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .wrapper {
+        max-width: 1200px
+        position: relative;
+    }
+
+    .wrapper i{
+        top: 50%;
+        height: 45px;
+        width: 45px;
+        cursor: pointer;
+        position:absolute;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 46px;
+        background:#5600615e;
+        border-radius: 50%;
+        transform: translateY(-50%)
+    }
+
+.wrapper i:first-child{
+    left: -23px;
+}
+
+.wrapper i:last-child{
+    right: -23px;
+}
+
+    .wrapper .carousel{
+        font-size: 0px;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .carousel img{
+        height: 340px;
+        object-fit: cover;
+        margin-left: 14px;
+        width: calc(100% / 3);
+    }
+
+.carousel img:first-child{
+    margin-left: 0px;
+}*/
+
+/* 
+    #prev-slide, #next-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+        /* @media(min-width: 1024px) {
+            .container-slider{
+                overflow: hidden;
+                width: 700px;
+                height: 400px;
+                margin: 0 auto;
+            } */
+
+
+   /*Style da página sobre nós */
+
+.titulo{
+    size: 20;
+    display: flex;
+    justify-content:center;
+    color: #60066B ;
+    border:none;
+    margin: 10px 50px 30px 50px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    background-color:#a18594;
+    font-family: "Yeseva One", serif, arial;
+}
+
+.titu{
+justify-content: flex;
+color:#60066B;
+margin: 0px 0px 3px 0px;
+font-family: "Yeseva One", serif, arial;
+}
+
+.sub{
+color:#a950b4;
+font-family: "Yeseva One", serif, arial;
+}
+
+.img1{
+margin: 19px 0px 0px 30px;
+z-index: 1;
+position:relative;
+height: 680px;
+width:780px;
+}
+
+.sub1 { height: 534px; width: 356px;
+z-index:2;
+position:absolute; left:241px; top: 404px; 
+
+}
+
+.img2{
+margin: 0px 0px 0px 0px;
+z-index: 1;
+position:relative; left: 550px;
+height: 680px;
+width:780px;
+}
+
+.sub2{
+z-index:2;
+position: absolute; right:86px; top:1089px;
+width: 369px; 
+height:533px;
+border-radius:30px;
+}
+
+.texto1{
+position: absolute; left:700px; bottom: -180px;
+color:#60066B;
+padding: 30px 80px 0px 0px;
+margin: 0px 0px 0px 0px;
+font-size:36px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.texto2{
+    color:#60066B;
+    font-size: 40px;
+    position: absolute; left:50px; top:1220px;
+    padding: 0px 610px 0px 90px;
+    margin: 0px 0px 0px 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.retangulo{
+    position:absolute; top:1359px;
+    width:auto;
+    height:1270px;
+}
+
+.circulos{
+    display:flex;
+    justify-content:space-evenly;
+    position:relative; top:23px;
+}
+
+.circ1{
+    width: 350px;
+    height: 350px;
+    position:relative; 
+}
+
+.circ2{
+    width: 350px;
+    height: 350px;
+    position:relative; 
+}
+
+.circ3{
+    width: 350px;
+    height: 350px;
+    position:relative; 
+}
+
+.icones{
+    position:absolute;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ico1{
+    width:280px;
+    position:relative; right: 102px; bottom:15px;
+}
+
+.ico2{
+    width:329px;
+    position:relative; right:18px; bottom:-11px;
+}
+
+.ico3{
+    width:242px;
+    position:relative; left:85px; bottom:32px;
+}
+
+.icotitu{
+    position:absolute; top:270px;
+    font-size: 35px;
+    justify-content: space-between;
+    display:flex;
+    color:white;
+    text-align: center;
+}
+
+.titu1{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; right:269px;
+}
+
+.titu2{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; left:7px;
+}
+
+.titu3{
+    font-family:"Yeseva One", serif, arial;
+    position:relative; left:290px;
+}
+
+.teto{
+    display:flex;
+    position:absolute;
+    top: 345px;
+    font-size:24px;
+    color:#60066B;
+    text-align: center;
+}
+
+.teto1{
+   position:relative; left:75px; top:-20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teto2{
+    position:relative;
+    left:114px; top:-20px;
+    padding: 0px 150px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teto3{
+    position:relative;
+    left:-20px; bottom:15px;
+    padding:10px 0px 0px px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.retangulo1{
+    display:flex;
+    position:absolute; top:2100px;
+    width:1460px;
+    height:1270px;
+}
+
+
+.proj{
+    font-family: "Yeseva One", serif, arial;
+    position:relative; top:390px;
+    text-align:center;
+    font-size:35px;
+    color:#60066B;
+}
+
+.imgf{
+    position:relative; top: 408px;
+    height: 474px;
+    width:690px;
+}
+
+.ltext{
+    position:relative;
+    top:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin:15px 0px 0px 740px;
+    color:#60066B;
+}
+
+
+/* RODAPÉ */
+
+
+.footer{
+    background-color: var(--1);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px 3px 50px 30px;
+    gap: 80px;
+   position:relative;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a{
+ font-size: 15px;
+ padding: 5px 0 5px 0;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #a18594;
+}
+
+footer p{
+    z-index: 1;
+    font-size: 20px;
+}
+    .foot1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       color: white;
+
+    }
+
+    .pay-icons{
+        padding: 30px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons-foot{
+        padding: 20px 30px 10px 30px;
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .foot2{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+    
+    .foot2 img{
+        width: 120px;
+    }
+    
+    .foot3{
+        display: flex;
+        flex-direction: column;
+       color: white;
+       align-items: center;
+        justify-content: center;
+
+    }
+
+    .foot4{
+
+        display: flex;
+       color: white;
+       align-items: center;
+        justify-content: center;
+        background-color: var(--1);
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+        padding: 20px 0px 25px 0px;
+        margin: 0 0px 0 0px;
+        gap: 80px;
+        border-color: var(--3);
+        border-style: solid;
+        border-width: 2px 0px 0px 0px;
+
+    }
+
+    .sec{
+        color:transparent;
+    }
+
+
+    /*Linhas Reciclaveis*/
+
+.produtos{
+    border-top:solid;
+    border-bottom:solid;
+    border-color:#60066B;
+}
+
+    .disc1{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align:center;
+    }
+
