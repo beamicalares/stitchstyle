@@ -112,6 +112,8 @@ opacity: 1;
 
 .logo img{
     width: 80px;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo{
@@ -167,6 +169,10 @@ height: 100%;
  .foto img{
     width: 100%;
     display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 2px 7px 2px #00000040;
+    ;
  }
 
  .detalhes{
@@ -430,6 +436,8 @@ p{
     
     .foot2 img{
         width: 120px;
+        max-width: 100%;
+    height: auto;
     }
     
     .foot3{
