@@ -145,7 +145,7 @@
         background-color: whitesmoke;
         padding: 8px ;
         border-radius: 0px;
-        z-index: 1;
+        z-index: 10;
         box-shadow: 3px 2px 7px 2px #00000036;
     }
 
@@ -164,7 +164,7 @@
         background-color: whitesmoke;
         padding: 8px ;
         border-radius: 0px;
-        z-index: 1;
+        z-index: 10;
         box-shadow: 3px 2px 7px 2px #00000036;
     }
     .dropdown-menu2 a{

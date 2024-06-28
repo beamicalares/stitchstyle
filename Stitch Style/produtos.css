@@ -255,32 +255,66 @@ nav li a:hover{
     background-color: #a950b4;
     border-radius: 10px;
 }
-.dropdown-menu{
+.dropdown-menu1{
+    width: 109px;
+    height: 134px;
     position: absolute;
     border: #a950b4;
     display:none;
     background-color: whitesmoke;
     padding: 8px ;
-    border-radius: 10px;
-    z-index: 1;
+    border-radius: 0px;
+    z-index: 10;
+    box-shadow: 3px 2px 7px 2px #00000036;
 }
-.dropdown-menu a{
+
+.dropdown-menu1 a{
     display: block;
-     border-radius: 10px;
+     border-radius: 0px;
      padding: 2px ;
 }
-    
-    .dropdown:hover .dropdown-menu{
+
+.dropdown-menu2{
+    width: 130px;
+    height: 75px;
+    position: absolute;
+    border: #a950b4;
+    display:none;
+    background-color: whitesmoke;
+    padding: 8px ;
+    border-radius: 0px;
+    z-index: 10;
+    box-shadow: 3px 2px 7px 2px #00000036;
+}
+.dropdown-menu2 a{
+    display: block;
+     border-radius: 0px;
+     padding: 2px ;
+}
+
+    .dropdown:hover .dropdown-menu1{
         display: block;
-        border-radius: 10px;
+        border-radius: 0px;
        
     }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu1{
         
         display: block;
     }
+
     
+    .dropdown:hover .dropdown-menu2{
+        display: block;
+        border-radius: 0px;
+       
+    }
+
+.dropdown:hover .dropdown-menu2{
+        
+        display: block;
+    }
+
     .doo {
         display: flex;
         padding-left: 100px;
