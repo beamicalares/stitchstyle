@@ -191,6 +191,24 @@
          border-radius: 0px;
          padding: 2px ;
     }
+    .dropdown-menu{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        border: #a950b4;
+        display:none;
+        background-color: whitesmoke;
+        padding: 10px ;
+        border-radius: 0px;
+        z-index: 10;
+        box-shadow: 3px 2px 7px 2px #00000036;
+    }
+
+    .dropdown-menu a{
+        display: block;
+         border-radius: 0px;
+         padding: 2px ;
+    }
     
         .dropdown:hover .dropdown-menu1{
             display: block;
@@ -211,6 +229,17 @@
         }
     
     .dropdown:hover .dropdown-menu2{
+            
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-menu{
+            display: block;
+            border-radius: 0px;
+           
+        }
+    
+    .dropdown:hover .dropdown-menu{
             
             display: block;
         }
@@ -366,8 +395,6 @@
         height: 100%;
         color: var(--1);
     } */
-
-/*Sobre nós*/
 
 .titulo{
     size: 20;
@@ -570,6 +597,7 @@ font-size:40px;
 }
 
 
+
 /* RODAPÉ */
 
 
@@ -734,119 +762,6 @@ footer p{
     padding-top:20px;
     padding-left:10px;
     color:var(--2)
-}
-
-    /*Linhas Reciclaveis*/
-
-.ltitu{
-    border-top:#60066B solid 2px;
-    border-bottom:#60066B solid 2px;
-}
-
-.disc1{
-    position:relative;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    color:#60066B;
-}
-
-.limg1{
-    border-radius:700px;
-    box-shadow:3px 2px 7px 2px #00000040;
-    height:250px;
-    width: 300px;
-}
-
-.ltitu1{
-    font-size: 35px;
-    margin:25px;
-}
-
-.lteto1{
-    margin: 10px 200px 0px 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    position:relative;
-}
-
-.disc2{
-    position:relative;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    color:#60066B;
-}
-
-.limg2{
-    border-radius:700px;
-    box-shadow:3px 2px 7px 2px #00000040;
-    height:250px;
-    width:300px;
-}
-
-.lteto2{
-    margin: 10px 200px 0px 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    position:relative;
-}
-
-.ltitu2{
-    font-size: 35px;
-    margin:25px;
-}
-
-.disc3{
-    position:relative;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    color:#60066B;
-    margin:55px;
-}
-
-.limg3{
-    border-radius:700px;
-    box-shadow:3px 2px 7px 2px #00000040;
-    height:250px;
-    width:300px;
-}
-
-.ltitu3{
-    font-size: 35px;
-    margin:25px;
-}
-
-.lteto3{
-    margin: 10px 200px 0px 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    position:relative;
-}
-
-.eli{
-    background-color: #a18594;
-    margin: 20px 400px 70px 400px;
-    padding:50px 0px 50px 0px;
-}
-
-.litens{
-    text-align: center;
-    font-size: 28px;
-     color:#60066B;
-}
-
-.listali{
-    list-style-type: none;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    margin:15px;
-    gap:15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color:#60066B;
 }
 
 
