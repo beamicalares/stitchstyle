@@ -148,6 +148,81 @@ height: 100%;
     margin: 30px 50px 30px 50px;
     flex-direction: row;
 }
+/* pesquisa */
+
+.box-busca{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+}
+.search-box-input::placeholder {
+    
+    color:#1b1515;
+    opacity: 0.8;
+}
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #a950b4; }
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #faf9f9;
+    height: 45px;
+}
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+ 
+}
+.search-box-input {
+    outline: 0;
+    font-size: 1.2em;
+    color: #ffffff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.search-box-button {
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color:transparent;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+}
+.search-box-button:active  {
+    transform: scale(.35);
+}
+.search-box-icone {
+    margin: auto;
+    color: #070707;
+    
+}
+.icone{
+    display: flex;
+    padding-top:20px;
+    padding-left:10px;
+    color:var(--2)
+}
+
+@media screen and (min-width: 40px){
+    
+    .search-box:hover .search-box-input {
+        width: 230px;
+    }
+}
 
 /* PRODUTOS INICIAL */
  #galeria > div{
@@ -260,8 +335,8 @@ nav li a:hover{
     }
 
 .dropdown-menu1{
-    width: 109px;
-    height: 134px;
+    width: 100px;
+    height: 120px;
     position: absolute;
     border: #a950b4;
     display:none;
@@ -279,8 +354,8 @@ nav li a:hover{
 }
 
 .dropdown-menu2{
-    width: 130px;
-    height: 75px;
+    width: 110px;
+    height: 65px;
     position: absolute;
     border: #a950b4;
     display:none;
@@ -399,7 +474,7 @@ footer a:hover{
     color: #a18594;
 }
 
-footer p{
+p{
     z-index: 1;
     font-size: 20px;
 }
