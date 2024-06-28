@@ -34,3 +34,21 @@ function prevSlider(){
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
+
+// barra de navegação
+function searchbar(){
+  let input = document.getElementById('searchbar').value
+  input = input.toLowerCase()
+  let x = document.getElementsByClassName('search-box-input')
+
+  for(i = 0; i < x.length; i++){
+    if(!x[i].innerHTML.toLowerCase().includes(input)){
+      x[i].style.display = "none"
+
+    } else{
+      x[i].style.display = "list-item"
+    }
+    
+    }
+  }
+  
