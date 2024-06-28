@@ -7,6 +7,7 @@
     <title>Produtos</title>
     <link rel="shortcut icon" href="./imagens/icone.png">
     <link rel="stylesheet" href="produtos.css">
+    <script src="https://kit.awesome.com/a076d05399.js"
     <script src="index.js"></script>
    <style>
         @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
@@ -15,7 +16,6 @@
     
 </head>
 <body>
-    <imput id="searchbar" type="text" name="searchbar" placeholder="pesquisar "></imput>
     <aside> 
 
     </aside>
@@ -24,25 +24,13 @@
             <img src="imagens/stitch_style-removebg-preview.png" alt="">
             <h1> Stitch Style </h1>
         </div>
-       <div class="icons">
-             <a href="ajuda.html">
-                 <i class="fa-solid fa-circle-question fa-lg"></i> </a>
-            <div class="box-busca">
-                <div class="search-box">
-                    
-                    <form method="post" action="#">
-                        <input id=searchbar type="text" class="search-box-input" name="seachbar" placeholder="Faça sua Pesquisa">
-                        <button class="search-box-button">
-                            <div class=icone><i class="fa-solid fa-magnifying-glass fa-2xl"></i></div>
-                        </button>
-                        
-                    
-                    </form>
-                    
-                </div><!-- Search -->
-            
-            </div><!--Box Busca-->
-          
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <p> 
+            <i class="fa-solid fa-user" ></i>
+                Entrar </p>
     </div>
     </header>
         <nav> 
@@ -53,7 +41,7 @@
                     <li class="dropdown">
                         <a href="produtos.html"> Produtos </a>
                          <div class="dropdown-menu1">
-                            <a style=font-size:20px  href="biquini.html">Biquínis</a>
+                            <a style=font-size:20px href="biquini.html">Biquínis</a>
                             <a style=font-size:20px href="Top.html">Tops</a>
                             <a style=font-size:20px href="short.html">Shorts</a>
                             <a style=font-size:20px href="vestido.html">Vestidos</a>
@@ -86,9 +74,39 @@
         </heather>
     </body>
 </style>
- <main>
 
-     <div id="galeria">
+ <main>
+    <div class="centerprod">
+        <input type="checkbox" id="click">
+        <label for="click" class="click-me"> Click me</label>
+        <div class="contentprod">
+            <div class="headerprod">
+                <h2>Modal Popup</h2>
+                <label for="click" class="fas fa-times"></label>
+                </div>
+                <label for="click" class="fas fa-check"></label>
+                <p class="prodp">o patinho amarelinho resolveu mudar de cor usou tinta azulzinha e azul ele ficou. viva o patinho azul. viva o patinho azul.</p>
+                <div class="line"></div>
+                <label for="click" class="close-btn">close</label>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <div id="galeria">
 
         <div class="foto" id="foto1">
             <a href="#foto1" >
@@ -173,17 +191,17 @@
             </div>
          </div>
 
-        </div>
+        </div> -->
     </main>
        
-        </style>              
+        </>              
         
         <footer>
             <div class="footer">
     
                 <div class="foot1">
                     <p> Deixe-nos ajudar</p>
-                    <a href="duvidas.html"> Dúvidas frequentes</a>
+                    <a href="#"> Dúvidas frequentes</a>
                     <div class="pay-icons"> <i class="fa-brands fa-pix fa-xl"></i> 
                         <i class="fa-solid fa-money-bill-1-wave fa-xl"></i></div>
                     </div>
