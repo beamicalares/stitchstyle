@@ -68,24 +68,18 @@ li{
 }
 
 a{
+    background-color: #f8f8f8;
     text-decoration: none;
+    border: none;
     color: var(--1);
+    transition: 0.3s;
 }
 
 a:hover{ 
-    text-decoration:none ;
-    color: var(--1);  
-    transition: ease 0.2s;
-    animation: fadeInLeft;
-    animation-duration: 0.5s;
+    /* background-color: #4a3e8e; */
+    color: white;
+   }
     
-
-}
-
-li a:active{
-text-decoration:none ;
-font-size: 30px;
-}
 
 .container-slider{
 display: flex;
@@ -254,9 +248,11 @@ background-color: var(--3);
 
 
 nav li a:hover{
-    background-color: #a950b4;
-    border-radius: 10px;
-}
+    background-color:var(--2);
+    border-radius: 0px;
+    padding: 4px;
+    }
+    
 .dropdown-menu1{
     width: 109px;
     height: 134px;
