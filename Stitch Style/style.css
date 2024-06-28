@@ -250,7 +250,7 @@
     background-color: transparent;
     cursor: pointer;
     z-index:1;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
    }
 
    #prev-button i,#next-button i{
