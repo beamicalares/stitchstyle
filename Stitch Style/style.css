@@ -110,7 +110,7 @@
     }
 
     a{
-        background-color: #f8f8f8;
+        background-color: transparent;
         text-decoration: none;
         border: none;
         color: var(--1);
@@ -119,7 +119,7 @@
 
    a:hover{ 
     /* background-color: #4a3e8e; */
-    color: white;
+    color: #58255f;
    }
 
     /*menu produtos */
@@ -190,7 +190,7 @@
             }
             
  nav li a:hover{
-            background-color:var(--2);
+            background-color:#c994d1;
             border-radius: 0px;
             padding: 4px;
             }

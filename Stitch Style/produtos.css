@@ -68,7 +68,7 @@ li{
 }
 
 a{
-    background-color: #f8f8f8;
+    background-color: transparent;
     text-decoration: none;
     border: none;
     color: var(--1);
@@ -77,7 +77,7 @@ a{
 
 a:hover{ 
     /* background-color: #4a3e8e; */
-    color: white;
+    color: #58255f;
    }
     
 
@@ -248,11 +248,11 @@ background-color: var(--3);
 
 
 nav li a:hover{
-    background-color:var(--2);
+    background-color: #c994d1;
     border-radius: 0px;
     padding: 4px;
     }
-    
+
 .dropdown-menu1{
     width: 109px;
     height: 134px;
