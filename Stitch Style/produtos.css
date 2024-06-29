@@ -297,8 +297,8 @@ nav li a:hover{
     }
 
 .dropdown-menu1{
-    width: 109px;
-    height: 134px;
+    width: 140px;
+    height: 130px;
     position: absolute;
     border: #a950b4;
     display:none;
@@ -316,7 +316,7 @@ nav li a:hover{
 }
 
 .dropdown-menu2{
-    width: 130px;
+    width: 135px;
     height: 75px;
     position: absolute;
     border: #a950b4;
