@@ -228,7 +228,74 @@ height: 100%;
 /* PRODUTOS INICIAL */
 
    
- #galeria > div{
+main {
+    background: transparent;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 150px;
+}
+
+#galeriaprod {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#galeriaprod ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas com largura igual */
+    gap: 60px; 
+    padding: 10px 400px 0px 400px ;
+}
+
+#galeriaprod img {
+    width: 300px; 
+    max-width: 100%;
+    height: auto; 
+    box-shadow: 3px 2px 7px 2px #00000036;
+}
+
+
+#galeriaprod li {
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+/* #galeriaprod img:hover {
+    border: 2px solid var(--1);
+} */
+
+.nomeprod, .valorprod {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.cardprod {
+    text-align: center; 
+}
+
+
+li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* #galeria > div{
     float: left;
     width: 25%;
     padding: 20px;
@@ -308,11 +375,7 @@ background-color: var(--3);
   
  /* .foto:target #galeria{
 
- } */
-
-
-
- 
+ } 
 
  .foto:target img{
     width: 500px;
@@ -324,7 +387,7 @@ background-color: var(--3);
    border-radius: 10px;
    z-index: 1; 
  }
-
+ */
 
 /* SEPARANDO */
 
