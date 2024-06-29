@@ -244,7 +244,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colunas com largura igual */
     gap: 60px; 
-    padding: 10px 400px 0px 400px ;
+    padding: 0px 250px 0px 250px ;
 }
 
 #galeriaprod img {
