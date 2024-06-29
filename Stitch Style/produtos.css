@@ -251,7 +251,11 @@ main {
     width: 300px; 
     max-width: 100%;
     height: auto; 
-    box-shadow: 3px 2px 7px 2px #00000036;
+    box-shadow: 3px 2px 7px 2px #00000040;
+}
+
+#galeriaprod img:hover {
+    border: 2px solid var(--1);
 }
 
 
