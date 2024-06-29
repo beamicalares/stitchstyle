@@ -254,7 +254,7 @@ main {
     box-shadow: 3px 2px 7px 2px #00000040;
 }
 
-#galeriaprod img:hover {
+.imgprod:hover {
     border: 2px solid var(--1);
 }
 
