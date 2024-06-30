@@ -371,7 +371,7 @@
                 justify-content: center;
                 align-items: flex-start;
                 padding-top: 100px;
-                height: 700px;
+                height: 600px;
             }
 
             .rightclickprod {
@@ -436,24 +436,17 @@
                  width: 100%;
                }
 
-            
-            
-            
+   h2{
+    color: var(--1);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size:30px ;
+   }
 
-
-
-               
-
-
-
-
-
-
-
-
-
-
-
+.outrosprodutos{
+    padding-left: 40%;
+}
 
 
 /* Sobre nós*/
