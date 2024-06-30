@@ -31,24 +31,31 @@ function prevSlider(){
   }
   showSlider()
 }
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  searchbar();
+});
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
 
+
+
 // barra de navegação
-function searchbar(){
-  let input = document.getElementById('searchbar').value
-  input = input.toLowerCase()
-  let x = document.getElementsByClassName('search-box-input')
+function searchbar() { 
+  console.log("teste");
+  let input = document.getElementById('searchbar').value.trim().toLowerCase();
+  const pages = ['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top'];
 
-  for(i = 0; i < x.length; i++){
-    if(!x[i].innerHTML.toLowerCase().includes(input)){
-      x[i].style.display = "none"
+  for (let i = 0; i < pages.length; i++) {
 
-    } else{
-      x[i].style.display = "list-item"
-    }
-    
+    if (pages[i].includes(input)) {
+      console.log("Oe");
+      window.location.href = pages[i]+'.html';
+    } else {
+
     }
   }
   
+  return false; // Prevent form submission
+}
