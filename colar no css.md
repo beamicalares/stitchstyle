@@ -20,15 +20,22 @@ na parte do clickproduto
            }
 
 
+
+
+
+
+
+
 em qualquer lugar
 
 
-/*  ERRO 404 PAGINA NAO ENCONTRADA */
 
-.erropage {
-    text-align: center; 
-  }
-  
+
+
+    /*  ERRO 404 PAGINA NAO ENCONTRADA */
+      .erropage {
+        text-align: center; 
+        }
   .erroimg {
     display: block; 
     margin: 0 auto; 
@@ -37,7 +44,6 @@ em qualquer lugar
     user-select: none; 
     pointer-events: none;
   }
-  
   .botao button{
     border: 1px solid #58255f;
     border-radius: 5%;
@@ -49,7 +55,6 @@ em qualquer lugar
     cursor: pointer;
     transition: .5s;
     }
-
     button:hover{
         color: #f8f8f8;
         background: #821691;
