@@ -974,16 +974,16 @@ summary::-webkit-details-marker {
     color: var(--1); 
     float: left;  
     font-weight: bold; 
-    padding: 5px 0px 5px 200px; 
+    padding: 5px 0px 5px 100px; 
     text-align: center; 
     width: 20px;
     left: 20px;
     margin-right: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
   }
   details[open] summary:after {
-    content: "-";
+    content: "—";
   }
 
 
