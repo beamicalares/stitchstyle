@@ -1,6 +1,10 @@
 copiar e colar no style css
 na parte do clickproduto
-.quero{
+
+
+
+
+                .quero{
                 font-size: 30px;
                 background: var(--3);
                 padding: 10px;
@@ -17,6 +21,8 @@ na parte do clickproduto
 
 
 em qualquer lugar
+
+
 /*  ERRO 404 PAGINA NAO ENCONTRADA */
 
 .erropage {
