@@ -4,6 +4,7 @@ const btnNext = document.getElementById('next-button');
 
 let currentSlide = 0;
 
+
 function hideSlider() {
 slider.forEach(item => item.classList.remove('on'))
 }
@@ -31,6 +32,7 @@ function prevSlider(){
   }
   showSlider()
 }
+
 document.getElementById('searchForm').addEventListener('submit', function(event) {
   event.preventDefault();
   searchbar();
