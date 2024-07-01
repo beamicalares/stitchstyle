@@ -44,21 +44,25 @@ btnPrev.addEventListener('click', prevSlider)
 
 
 // barra de navegação
-function searchbar() { 
+function searchbar() {
   console.log("teste");
   let input = document.getElementById('searchbar').value.trim().toLowerCase();
-  const pages = ['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top']
+  const pages = ['top', 'acessorio', 'ajuda', 'biquini', 'linhas', 'produtos', 'short', 'sobrenos', 'Top'];
+  let paginaEncontrada = false; 
 
   for (let i = 0; i < pages.length; i++) {
-
     if (pages[i].includes(input)) {
-      console.log("Oe");
-      window.location.href = pages[i]+'.html';
-    } else {
-
+      console.log("Página encontrada:", pages[i]);
+      window.location.href = pages[i] + '.html';
+      paginaEncontrada = true; 
+      break; 
     }
   }
+
   
-  return false; // Prevent form submission
+  if (!paginaEncontrada) {
+    window.location.href = 'erro404.html';
+  }
+
+  return false;
 }
-['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top'];
