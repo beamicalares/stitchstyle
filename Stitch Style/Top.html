@@ -6,7 +6,7 @@
     <title>Tops</title>
     <link rel="shortcut icon" href="./imagens/icone.png">
     <link rel="stylesheet" href="produtos.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
    <style>
         @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
         </style>
@@ -25,20 +25,23 @@
       <div class="icons">
              <a href="ajuda.html">
                  <i class="fa-solid fa-circle-question fa-lg"></i> </a>
-                 <div class="box-busca">
-                    <div class="search-box">
+            <div class="box-busca">
+                <div class="search-box">
+                    
+                    <form method="post" action="#">
+                        <input id=searchbar type="text" class="search-box-input" name="seachbar" placeholder="Faça sua Pesquisa">
+                        <button class="search-box-button">
+                            <div class=icone><i class="fa-solid fa-magnifying-glass fa-2xl"></i></div>
+                        </button>
                         
-                        <form id="searchForm">
-                            <input id="searchbar" type="text" class="search-box-input" name="searchbar" placeholder="Faça sua Pesquisa">
-                            <button type="submit" class="search-box-button">
-                                <div class="icone"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></div>
-                            </button>
-                        </form>
-                        <div id="results"></div>
-                        
-                    </div><!-- Search -->
-                
-                </div><!--Box Busca-->
+                    
+                    </form>
+                    
+                </div><!-- Search -->
+            
+            </div><!--Box Busca-->
+          
+    </div>
     </header>
         <nav> 
             <div class="nav-list">
@@ -59,7 +62,7 @@
                         <a> Contatos </a>
                    <div class="dropdown-menu2">
                        <a style=font-size:20px href="https://www.instagram.com/stitch_wth_style/"> Instagram </a>
-                       <a style=font-size:20px href="https://wa.me/557100000000"> Whatsapp</a>
+                       <a style=font-size:20px href="#"> Whatsapp</a>
                    </div>
                 </li>
                     <li> <a href="linhas.html"> Linhas Recicláveis </a> </li>
@@ -83,46 +86,18 @@
             <div id="galeriaprod">
        
                <ul>
-                   <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
+                <li class="cardprod">
+                    <div class="imgprod"><a href="clickprodutos5.html"><img src="https://i.postimg.cc/GmQMccZv/stock-photo-caucasian-tanned-young-woman-portrait-wearing-casual-trendy-summer-clothes-sitting-outdo.jpg" alt=""></a></div>
+                    <span class="nomeprod">Top verde</span><br>
+                    <span class="valorprod">R$ 55,70</span>
+                </li>
+
+                <li class="cardprod">
+                    <div class="imgprod"><a href="clickprodutos6.html"><img src="https://i.postimg.cc/25rPw9f7/stock-photo-unrecognizable-caucasian-young-woman-wearing-hand-made-golden-crochet-top-2408737109.jpg" alt=""></a></div>
+                    <span class="nomeprod">Top musgo</span><br>
+                    <span class="valorprod">R$ 56,60</span>
                    </li>
-                   <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
-                     <li class="cardprod">
-                       <div class="imgprod"><img src="image/2979421e6cac81378bfeaea3052a5be1.png" alt=""></div>
-                       <span class="nomeprod">Nome</span><br>
-                       <span class="valorprod">R$ 00,00</span>
-                   </li>
+                  
                </ul>
                </div>
            </main>
@@ -142,7 +117,7 @@
                             Stitch Style</p>
                         <div class="icons-foot">
                             <a href="https://www.instagram.com/stitch_wth_style/"> <i class="fa-brands fa-instagram fa-xl"></i> </a>
-                            <a href="https://wa.me/557100000000"> <i class="fa-brands fa-whatsapp fa-xl"></i> </a>
+                            <a href="#"> <i class="fa-brands fa-whatsapp fa-xl"></i> </a>
                             <a href="#"><i class="fa-solid fa-at fa-xl"> </i></a>
                             <a href="https://pin.it/2TEzuRvEH"> <i class="fa-brands fa-pinterest fa-xl"></i></a>
                         </div>
