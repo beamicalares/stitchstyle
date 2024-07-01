@@ -54,10 +54,10 @@ function searchbar() {
     if (pages[i].includes(input)) {
       console.log("Oe");
       window.location.href = pages[i]+'.html';
-    } else {
-
+     } else {
+      window.location.href = 'erro404.html'
     }
   }
   
-  return false; // Prevent form submission
+  return false; 
 }
