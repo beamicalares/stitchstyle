@@ -47,17 +47,18 @@ btnPrev.addEventListener('click', prevSlider)
 function searchbar() { 
   console.log("teste");
   let input = document.getElementById('searchbar').value.trim().toLowerCase();
-  const pages = ['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top'];
+  const pages = ['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top']
 
   for (let i = 0; i < pages.length; i++) {
 
     if (pages[i].includes(input)) {
       console.log("Oe");
       window.location.href = pages[i]+'.html';
-     } else {
-      window.location.href = 'erro404.html'
+    } else {
+
     }
   }
   
-  return false; 
+  return false; // Prevent form submission
 }
+['top','acessorio','ajuda','biquini', 'linhas', 'produtos','short', 'sobrenos', 'Top'];
