@@ -495,7 +495,7 @@ transition: .5s;
 
 button:hover{
     color: #f8f8f8;
-    background: #821691;
+    background: var(--2);
 }
 
 
